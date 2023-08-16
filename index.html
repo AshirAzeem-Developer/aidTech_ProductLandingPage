@@ -3,75 +3,186 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
     <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#contact">Contact</a></li>
+    <!-- Navbar Starts  -->
+
+    <!-- background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%); -->
+    <div class="section1">
+      <div>
+        <h1 style="margin-left: auto; font-size: 2rem;">Auricular</h1>
+      </div>
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <ul
+          style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            
+          "
+        >
+          <li class="sec1List" style="padding: 12px; list-style: none">Home</li>
+          <li class="sec1List" style="padding: 12px; list-style: none">
+            Categories
+          </li>
+          <li class="sec1List" style="padding: 12px; list-style: none">
+            Pricing
+          </li>
+          <li class="sec1List" style="padding: 12px; list-style: none">
+            SignIn
+          </li>
+          <li style="padding: 12px; list-style: none">
+            <i class="fa-solid fa-magnifying-glass sec1Icons"></i>
+          </li>
+          <li style="padding: 12px; list-style: none">
+            <i class="fa-solid fa-cart-shopping sec1Icons"></i>
+          </li>
         </ul>
-      </nav>
-    </header>
-
-    <section id="hero">
-      <h1>Your Product Name</h1>
-      <p>Revolutionary solutions for all your needs.</p>
-      <a href="#contact" class="cta-button">Get Started</a>
-    </section>
-
-    <section id="features">
-      <h2>Features</h2>
-      <div class="feature">
-        <img src="feature-icon-1.png" alt="Feature 1" />
-        <h3>Feature 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button
+        class="button"
+        style="font-size: 1.1rem;"
+         
+        >
+          Sign Up
+        </button>
       </div>
-      <div class="feature">
-        <img src="feature-icon-2.png" alt="Feature 2" />
-        <h3>Feature 2</h3>
-        <p>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </div>
+    <!-- Navbar   Ends -->
+    <!-- Hero Section Starts  -->
+    <div class="section2">
+      <div>
+        <h1 style="font-size: 4rem; ">Listening Music Becomes Fun</h1>
+        <p style="font-size: 1.5rem; ">
+          Get the Experience of Listening to music to be more fun and exciting
         </p>
+        <button class="button" style="font-size: 1.5rem; padding: 2%;
+        background-color: transparent; ">Shop Now</button>
       </div>
-      <!-- Add more features as needed -->
-    </section>
+      <div style="padding-left: 15%;">
+        <img
+          src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/55f5f9c0f4f655c99417d8db/2.png?version="
 
-    <section id="pricing">
-      <h2>Pricing</h2>
-      <div class="price-plan">
-        <h3>Basic Plan</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <span class="price">$19/month</span>
-        <a href="#contact" class="cta-button">Get Started</a>
+          
+          alt="imageHere" width="120%"
+        />
       </div>
-      <div class="price-plan">
-        <h3>Pro Plan</h3>
-        <p>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </div>
+    <!--  Hero Section Starts-->
+    <!-- Section 3  -->
+    <div class="section3" style="padding-left:15%;padding-right:15% ;">
+      <div style="padding-left:5%;padding-right:5% ;">
+        <p style="color: blueviolet; font-size: 1rem; font-weight: bold;">New Product</p>
+        <h1 style="font-size: 3.5rem;">The latest Headphones with the latest Technology</h1>
+        <p style="font-size: 1.3rem;">
+          The latest headphones products that we have with the latest technology
+          and you can get them at affordable prices. See Specifications
         </p>
-        <span class="price">$39/month</span>
-        <a href="#contact" class="cta-button">Get Started</a>
+        <button class="button " style="font-size: 1.4rem;">View Specifications</button>
       </div>
-      <!-- Add more pricing plans as needed -->
-    </section>
+      <div style="padding-left:5%;padding-right:5% ;">
+        <img
+          src=" https://images02.nicepage.com/a1389d7bc73adea1e1c1fb7e/2be72595fd285e6e82609724/d7a53a450f76f01840facc033bb0627f.png "
+          alt="imageHere"
+          width="100%"
 
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <p>Have questions? Contact our support team.</p>
-      <form>
-        <input type="text" placeholder="Your Name" />
-        <input type="email" placeholder="Your Email" />
-        <textarea placeholder="Your Message"></textarea>
-        <button type="submit" class="cta-button">Send</button>
-      </form>
-    </section>
+         
+        />
+      </div>
+    </div>
+    <!--  Section 3 Ends Here-->
+    <!-- Section 4  -->
+    <div class="section4 ">
+      <div>
+        <p style="text-align: center;color: blueviolet ;margin-top: 25%;font-size: 1.2rem; font-weight: bold;">Categories</p>
+        <h1 s>We Have many Categories of Headphones</h1>
+        <div>
+          <ul
+            style="
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+            "
+          >
+            <li class="categories" style="list-style: none">Gaming</li>
+            <li class="categories" style="list-style: none">Movie</li>
+            <li class="categories" style="list-style: none">Music</li>
+            <li class="categories" style="list-style: none">Wireless</li>
+          </ul>
+        </div>
+      </div>
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          align-items: start;
+          justify-content: space-around;
+        "
+      >
+        <img
+          src="https://images02.nicepage.com/a1389d7bc73adea1e1c1fb7e/2be72595fd285e6e82609724/d7a53a450f76f01840facc033bb0627f.png"
+          alt="imageHere"
+          width="50%"
+        />
+        <div style="margin-top: 10em; padding: 10%">
+          <h1>Ngabret J23</h1>
+          <p >Headphone Gaming</p>
+          <p>
+            Ngabret J23 are the best gaming headphones we make. With the latest
+            technology that can make the user happy and the mic is very clear
+          </p>
+          <p>
+            <i class="fa-solid fa-star" style="color: yellow;"></i>
+            <i class="fa-solid fa-star" style="color: yellow;"></i>
+            <i class="fa-solid fa-star" style="color: yellow;"></i>
+            <i class="fa-solid fa-star" style="color: yellow;"></i>
+            <i class="fa-solid fa-star-half-stroke" style="color: yellow;"></i>
+          </p>
+          <div>
+            <button class="button">Buy Now</button>
+            <button class="button">View Specifications</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  Section 4 Ends Here-->
+    <!-- Section 5 (Contact Form)  -->
+    <div style="margin:10%;background-color: rgba(255, 255, 255, 0.229); width: 80vw ;">
+          <div style="display: flex;flex-direction: row; align-items: center; justify-content: space-evenly;"> 
+            <h1 style="font-size: 4rem;">Get In Touch</h1>
+            <div style="display: flex;flex-direction: column;padding: 2rem; align-items: center;">
 
-    <footer>
-      <p>&copy; 2023 Your Company Name. All rights reserved.</p>
-    </footer>
+              <input type="text" placeholder="Name"  style="margin: 1rem; border-radius: 2rem ; padding: 1rem; width: 100%; background-color: transparent;"/>
+              <input type="email" placeholder="Email"  style="margin: 1rem; border-radius: 2rem ; padding: 1rem; width: 100%; background-color: transparent;"/>
+              <textarea style="margin: 1rem; border-radius: 1rem ; padding: 1rem; width: 100%; background-color: transparent;"
+              name="Message"
+              id="message"
+              placeholder="Message"
+              cols="30"
+              rows="10"
+              ></textarea>
+              <button class="button" style="margin: 1rem; border-radius: 2rem ; padding: 1rem; width: 100%;">Send</button>
+            </div>
+          </div>       
+      </div>
+    </div>
+    <!--  Section 5 Ends Here-->
   </body>
 </html>
